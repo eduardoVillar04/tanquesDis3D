@@ -512,8 +512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shellPool: []
-  shellPrefab: {fileID: 4452255466509900501, guid: 37ef6a27741f23742ba85729c2d40c48, type: 3}
-  poolSize: 10
+  m_ShellPrefab: {fileID: 4452255466509900501, guid: 37ef6a27741f23742ba85729c2d40c48, type: 3}
+  m_PoolSize: 10
 --- !u!4 &570850795
 Transform:
   m_ObjectHideFlags: 0
@@ -1309,11 +1309,11 @@ PrefabInstance:
     - target: {fileID: 8953420645578988560, guid: a8c18292b00933f4c86b020cb1d80b13, type: 3}
       propertyPath: cameraList.Array.data[0]
       value: 
-      objectReference: {fileID: 1545265815}
+      objectReference: {fileID: 2029026478}
     - target: {fileID: 8953420645578988560, guid: a8c18292b00933f4c86b020cb1d80b13, type: 3}
       propertyPath: cameraList.Array.data[1]
       value: 
-      objectReference: {fileID: 2029026478}
+      objectReference: {fileID: 1545265815}
     - target: {fileID: 8953420645578988560, guid: a8c18292b00933f4c86b020cb1d80b13, type: 3}
       propertyPath: cameraList.Array.data[2]
       value: 
